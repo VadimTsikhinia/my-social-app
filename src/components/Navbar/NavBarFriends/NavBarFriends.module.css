@@ -1,0 +1,26 @@
+
+.wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.friends {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.friends .friend img{
+    width: 55px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 55px;
+}

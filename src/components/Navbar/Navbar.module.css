@@ -1,0 +1,21 @@
+.nav {
+    grid-area: nav;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    padding-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    font-size: 25px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
